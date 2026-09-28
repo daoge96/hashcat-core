@@ -1,0 +1,14 @@
+hashcat-core
+============
+
+Copyright (c) 2026 daoge96
+
+This repository contains the core source code of a GPU accelerated password
+recovery engine. It is presented here as my own program.
+
+The overall design, the OpenCL compute kernels and large parts of the C engine
+are derived from the Hashcat project (https://github.com/hashcat/hashcat),
+which is released under the MIT license. Original authorship credits belong to
+Jens Steube and the Hashcat contributors.
+
+Files here are provided under the MIT license (see docs/license.txt upstream).
